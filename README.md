@@ -76,7 +76,7 @@ Data Analysis is based on a review and interpretation of a provided data set, th
 
     1. Campains with a __goal__ of less than $1,000 were the most successful ones.
     2. The highest number of failed campaings were the ones with a __goal__ set to more than $50,000
-    3. The percentage of campaings that succeded and failed were about the same when the `goal` was set between $15,000 and $19,9999, as well as between $30,000 and $39,999.
+    3. The percentage of campaings that succeded and failed were about the same when the __goal__ was set between $15,000 and $19,9999, as well as between $30,000 and $39,999.
 
 - What are some limitations of this dataset?
 
