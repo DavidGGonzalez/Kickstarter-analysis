@@ -8,7 +8,7 @@ I need to concentrate my efforts in finding how the launch date had affected oth
 #
 ### Analysis of Outcomes Based on Launch Date
 Using the main data set, I have:
-- Created a new column called __Year__, then filled this column by applying the following [YEAR()](https://support.microsoft.com/en-us/office/year-function-c64f017a-1354-490d-981f-578e8ec8d3b9) excel formula `=YEAR(CELL)`, were `CELL = S2`.
+- Created a new column called __Year__, then filled this column by applying the following [YEAR()](https://support.microsoft.com/en-us/office/year-function-c64f017a-1354-490d-981f-578e8ec8d3b9) excel formula `=YEAR(CELL)`, were __CELL=S2__.
 - Create a Pivot table on a new sheet called ***Theater Outcomes by Launch Date***
     - `Parent Category` and `Years` were set as filters.
     - `Outcomes` were set as columns, but we filtered them leaving `outcome="live"` out so we can evaluate those that were completed already; they were also set as values to obtain the count for each `outcome`.
