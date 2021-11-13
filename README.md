@@ -10,8 +10,8 @@ I need to concentrate my efforts in finding how the launch date had affected oth
 Using the main data set, I have:
 - Created a new column called __Year__, then filled this column by applying the following [YEAR()](https://support.microsoft.com/en-us/office/year-function-c64f017a-1354-490d-981f-578e8ec8d3b9) excel formula `=YEAR(CELL)`, were __CELL=S2__.
 - Create a Pivot table on a new sheet called ***Theater Outcomes by Launch Date***
-    - `Parent Category` and `Years` were set as filters.
-    - `Outcomes` were set as columns, but we filtered them leaving `outcome="live"` out so we can evaluate those that were completed already; they were also set as values to obtain the count for each `outcome`.
+    - __Parent Category__ and __Years__ were set as filters.
+    - __Outcomes__ were set as columns, but we filtered them leaving __outcome="live"__ out so we can evaluate those that were completed already; they were also set as values to obtain the count for each __outcome__.
     - Excel would automatically divide `date` column into `Years`, `Quarters`, and `Months` when dropped as a pivot table row, so I have removed years and quarters to represent our data by month, this will allow me to filter by year and see how projects' outcome was affected by the month they were launched at.
     - I've set `Parent Category="theater"` to see only data for those projects related to theaters.
     - Created a pivot chart, type __Line with Markers__.
