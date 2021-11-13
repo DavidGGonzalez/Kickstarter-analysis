@@ -63,19 +63,19 @@ Using the main data set, I have:
 
 #
 ### Challenges and Difficulties Encountered
-Data Analysis is based on a review and interpretation of a provided data set, the idea is to be able to ask questions to our data, but first we need *clean and re-format* this data so we can properly work with it. Errors may occure while processing our data and we need use certain excel functions like the [IFERROR()](https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611) to catch them and to properly handle them, i.e.: `#DIV/0!`. Not many challenges were found with the provided data set, just that the __Date Created__ (`launched_at`) and __Date Ended__ (`deadline`) columns came in a __UNIX Timestamp__ and required a special formula to convert them (`=(((CELL/60)/60)/24)+DATE(1970,1,1)`); please visit [UNIX Timestamp](https://www.unixtimestamp.com/) for more information about this UNIX timespamp.
+Data Analysis is based on a review and interpretation of a provided data set, the idea is to be able to ask questions to our data, but first we need *clean and re-format* this data so we can properly work with it. Errors may occure while processing our data and we need use certain excel functions like the [IFERROR()](https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611) to catch them and to properly handle them, i.e.: __#DIV/0!__. Not many challenges were found with the provided data set, just that the __Date Created__ (__launched_at__) and __Date Ended__ (__deadline__) columns came in a __UNIX Timestamp__ and required a special formula to convert them (`=(((CELL/60)/60)/24)+DATE(1970,1,1)`); please visit [UNIX Timestamp](https://www.unixtimestamp.com/) for more information about this UNIX timespamp.
 #
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date? (for `Parent Category="theater"`)
+- What are two conclusions you can draw about the Outcomes based on Launch Date? (for __Parent Category="theater"__)
 
     1. Campains that were launched in May shows the highest number of success.
     2. January, March, September and November shows almost the same number of campains that failed.
 
 - What can you conclude about the Outcomes based on Goals?
 
-    1. Campains with a `goal` of less than $1,000 were the most successful ones.
-    2. The highest number of failed campaings were the ones with a `goal` set to more than $50,000
+    1. Campains with a __goal__ of less than $1,000 were the most successful ones.
+    2. The highest number of failed campaings were the ones with a __goal__ set to more than $50,000
     3. The percentage of campaings that succeded and failed were about the same when the `goal` was set between $15,000 and $19,9999, as well as between $30,000 and $39,999.
 
 - What are some limitations of this dataset?
@@ -84,4 +84,4 @@ Data Analysis is based on a review and interpretation of a provided data set, th
 
 - What are some other possible tables and/or graphs that we could create?
 
-    It will all depend on the questions we need to ask out data set and based on client's needs, but I would create a pivot table showing Countries as `Rows`, this would provide a comparison by country if required to launch a campaign in different countries, and I could also add months to see, based on outcomes, how they compared through the year.
+    It will all depend on the questions we need to ask out data set and based on client's needs, but I would create a pivot table showing Countries as rows, this would provide a comparison by country if required to launch a campaign in different countries, and I could also add months to see, based on outcomes, how they compared through the year.
