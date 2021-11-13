@@ -12,11 +12,11 @@ Using the main data set, I have:
 - Create a Pivot table on a new sheet called ***Theater Outcomes by Launch Date***
     - __Parent Category__ and __Years__ were set as filters.
     - __Outcomes__ were set as columns, but we filtered them leaving __outcome="live"__ out so we can evaluate those that were completed already; they were also set as values to obtain the count for each __outcome__.
-    - Excel would automatically divide `date` column into `Years`, `Quarters`, and `Months` when dropped as a pivot table row, so I have removed years and quarters to represent our data by month, this will allow me to filter by year and see how projects' outcome was affected by the month they were launched at.
-    - I've set `Parent Category="theater"` to see only data for those projects related to theaters.
+    - ***Excel*** would automatically divide __date__ column into __Years__, __Quarters__, and __Months__ when dropped as a pivot table row, so I have removed years and quarters to represent our data by month, this will allow me to filter by year and see how projects' outcome was affected by the month they were launched at.
+    - I've set __Parent Category="theater"__ to see only data for those projects related to theaters.
     - Created a pivot chart, type __Line with Markers__.
 
-*Final Pivot Table, after `Parent Category` was filtered by `theater`*
+*Final Pivot Table, after __Parent Category__ was filtered by __theater__*
 
 ![The Pivot Table looks like this](/Resources/PivotTable.png)
 
