@@ -55,12 +55,11 @@ Using the main data set, I have:
 
 *Final Table*
 
-![Outcomes Based on Goals table](/Resources/Outcomes_Based_on_Goals_table.png)
-
+![Outcomes Based on Goals Table](/Resources/Outcomes_Based_on_Goals_Table.png)
 
 ***Oucomes Based on Goals*** Chart
 
-![Outcomes Based on Goals table](/Resources/Outcomes_vs_Goals.png)
+![Outcomes Based on Goals Chart](/Resources/Outcomes_vs_Goals.png)
 
 #
 ### Challenges and Difficulties Encountered
