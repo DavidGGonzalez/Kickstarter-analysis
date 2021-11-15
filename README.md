@@ -49,8 +49,8 @@ Using the main data set, I have:
     - 45000 to 49999
     - Greater than 50000
 - Using the [COUNTIFS()](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842) function the `Number Successful`, `Number Failed`, and `Number Cancelled` columns were filled, applying differnt criterias to properly accomodate for the evaluated range using the following `columns` from the `Kickstarter` sheet: `D` (__goal__), and `F` (__outcomes__)
-    - For a comparison using 2 criterion: `=COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"successful")`
-    - For a comparison using more than 2 criterion: `=COUNTIFS(Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"successful")`
+    - For a comparison using 2 criterion: `=COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`
+    - For a comparison using more than 2 criterion: `=COUNTIFS(Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`
 - Finally, a __Line Chart__ was created to properly visualize the results.
 
 *Final Table*
