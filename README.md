@@ -55,7 +55,7 @@ Using the main data set, I have:
 
 *Final Table*
 
-![Outcomes Based on Goals table](/Resources/Outcomes_Based_on_Goals_table.png)
+![Outcomes Based on Goals table]()
 
 
 ***Oucomes Based on Goals*** Chart
