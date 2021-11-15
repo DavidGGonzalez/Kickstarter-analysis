@@ -60,7 +60,7 @@ Using the main data set, I have:
 
 ***Oucomes Based on Goals*** Chart
 
-![Outcomes Based on Goals table]()
+![Outcomes Based on Goals table](/Resources/Outcomes_vs_Goals.png)
 
 #
 ### Challenges and Difficulties Encountered
