@@ -4,7 +4,7 @@
 Thanks to my previous analysis, Louise's play ***Fever*** came close to its fundraising goal in a very short period of time. Now, she wants to know how other campains have succeded in relation to their launch date and the goal they were set for.
 #
 ## Analysis and Challenges
-I need to concentrate my efforts in finding how the launch date had affected other funraising projects, but more specifically within the __Theater__ :performing_arts: category so it better corralate with Louise's needs.
+I need to concentrate my efforts in finding how the launch date had affected other funraising projects, but more specifically within the __Theater__ :performing_arts: category so it better corralate with Louise's needs. The only challenge was to pay attention to the details like selecting filter correctly depending on the request's needs.
 #
 ### Analysis of Outcomes Based on Launch Date
 Using the main data set, I have:
