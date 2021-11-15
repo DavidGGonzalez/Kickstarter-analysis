@@ -75,7 +75,7 @@ Data Analysis is based on a review and interpretation of a provided data set, th
 
 - What can you conclude about the Outcomes based on Goals?
 
-    1. Not a single was canceled, they either failed or succeded.
+    1. Not a single campaing was canceled, they either failed or succeded.
     2. Campains with a `goal` of less than $1,000 were the most successful ones.
     3. The highest number of failed campaings were the ones with a `goal` set between $45,000 and $49,999
     4. The percentage of campaings that succeded and failed were about the same when the `goal` was set between $15,000 and $19,9999, as well as between $30,000 and $39,999.
@@ -87,4 +87,3 @@ Data Analysis is based on a review and interpretation of a provided data set, th
 - What are some other possible tables and/or graphs that we could create?
 
     It will all depend on the questions we need to ask out data set and based on client's needs, but I would create a pivot table showing Countries as `Rows`, this would provide a comparison by country if required to launch a campaign in different countries, and I could also add months to see, based on outcomes, how they compared through the year.
-
